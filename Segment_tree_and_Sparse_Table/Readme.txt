@@ -1,2 +1,3 @@
 This section contains the Solution to Problem using Segment Tree and Sparse Table.
 1.Maximize_Bitwise_Function.cpp Simple Problem that can only be solved through Sparse Table in Time constraint. Wrote log fn that computes log in O(1).
+2.Prefix_sum_queries.cpp This is intresting question with range update and range maximum , we solved it with one segment tree , the main idea is to traverse the tree from u to down and while moving down you push the updates to both the child. The Question is that we are provided with an array and also can be given a point update , or query in form of (l,r) where we have to output maximum prefix sum in that range starting from l.
