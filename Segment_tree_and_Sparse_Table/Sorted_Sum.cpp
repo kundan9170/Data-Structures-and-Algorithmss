@@ -104,14 +104,6 @@ struct seg_tree{
             return sum_;
         }
     }
-
-    // void print_(){
-    //     for(int i = 1 ; i<=2*pow_two-1 ; ++i){
-    //         cout << tree[i].ff << " ";
-    //     }
-    //     cout << endl;
-    // }
-
 };
 
 
